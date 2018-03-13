@@ -1,0 +1,33 @@
+﻿
+
+@font-face {
+	font-family: "JF-Flat-regular";
+	src: url('/OnlineAdmissionSys/Content/skin/assets/fonts/JF-Flat-regular.eot');
+	src: local('ÃƒÂ¢Ã‹Å“Ã‚Âº'), url('/OnlineAdmissionSys/Content/skin/assets/fonts/JF-Flat-regular.woff') format('woff'), 
+	url('/OnlineAdmissionSys/Content/skin/assets/fonts/JF-Flat-regular.ttf') format('truetype'), 
+	url('/OnlineAdmissionSys/Content/skin/assets/fonts/JF-Flat-regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    /*font-family: 'Cairo', sans-serif ;*/
+    font-family:"JF-Flat-regular", 'Open Sans', sans-serif;
+    direction:rtl;
+}
+
+
+.login a {
+    font-size: 1em !important;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,input{
+font-family:inherit !important;
+}
+
+.wrapper,.mdl-snackbar__text,.state{
+    font-family:"JF-Flat-regular", 'Open Sans', sans-serif;
+        direction:rtl;
+}
